@@ -1,0 +1,51 @@
+header {
+    text-align: center;
+    color: darkgrey;
+    font-family: cursive;
+}
+
+.thonk img {
+    max-width: 200px;
+    max-height: 150px;
+    margin-left: 850px;
+}
+
+body {
+    background: radial-gradient(circle, crimson, black);
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    background-color: blanchedalmond ;
+    font-family: Calibri, cursive;
+}
+
+
+.text-box-heading-1 {
+    margin-left: 650px;
+}
+
+.text-box-heading-2 {
+    margin-left: 660px;
+}
+
+.text-box-heading-3 {
+    margin-left: 700px;
+
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    font-family: cursive;
+    color: white;
+}
+
+button {
+    font-family: cursive;
+    background: radial-gradient(circle, darkgrey, black);
+    margin-left: 680px;
+}

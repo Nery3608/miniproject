@@ -1,0 +1,45 @@
+header {
+    text-align: center;
+    color: darkseagreen;
+    font-family: cursive;
+}
+
+body {
+    background: radial-gradient(ellipse, mediumspringgreen, black);
+}
+
+p {
+    color: cadetblue;
+    font-size: 20px;
+    border: 5px solid darkgray;
+    border-radius: 15px;
+    background-color: black;
+    font-family: Calibri, cursive;
+}
+
+
+.text-box-heading-1 {
+    margin-left: 650px;
+}
+
+.text-box-heading-2 {
+    margin-left: 660px;
+}
+
+.text-box-heading-3 {
+    margin-left: 700px;
+
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    font-family: cursive;
+    color: ghostwhite;
+}
+
+button {
+    font-family: cursive;
+    background: radial-gradient(circle, greenyellow, darkgrey);
+    margin-left: 680px;
+}

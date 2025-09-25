@@ -1,0 +1,54 @@
+header {
+    text-align: center;
+    color: wheat;
+    font-family: cursive;
+}
+
+body {
+    background: radial-gradient(circle, wheat, black);
+}
+
+p {
+    color: black;
+    font-size: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    background-color: blanchedalmond ;
+    font-family: Calibri, cursive;
+}
+
+
+.text-box-heading-1 {
+    margin-left: 600px;
+}
+
+.text-box-heading-2 {
+    margin-left: 600px;
+}
+
+.text-box-heading-3 {
+    margin-left: 700px;
+
+}
+
+li {
+    list-style: none;
+    font-family: cursive;
+    color: wheat;
+}
+
+button {
+    font-family: cursive;
+    background: radial-gradient(circle, wheat, darkgrey);
+    margin-left: 700px;
+}
+
+img {
+    height: 300px;
+    width: 400px;
+    margin-left: 550px;
+    justify-content: space-between;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+

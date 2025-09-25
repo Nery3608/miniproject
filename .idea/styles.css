@@ -1,0 +1,84 @@
+img {
+    height: 200px;
+    width: 300px;
+    margin: 10px;
+    justify-content: space-between;
+    border: 5px solid black;
+    border-radius: 15px;
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+    font-family: cursive;
+}
+
+p {
+    color: orange;
+    font-size: 20px;
+    border: 5px solid whitesmoke;
+    border-radius: 15px;
+    background-color: wheat;
+}
+
+body {
+    background: radial-gradient(circle, darkslategray, darkgrey);
+}
+
+.section-1-text {
+    margin-left: 650px;
+    color: aliceblue;
+}
+
+.section-2-text {
+    margin-left: 700px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.section-3-text {
+    margin-left: 700px;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+.images-table {
+    margin-left: 300px;
+    display: flex;
+}
+
+.image-container {
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#image-1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px darkturquoise;
+}
+
+#image-1:before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+}
+
+#image-2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px deepskyblue;
+}
+
+#image-2:before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+}
+
+#image-3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px darkblue;
+}
+
+#image-3:before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+}
