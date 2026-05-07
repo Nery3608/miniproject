@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 2rem;
+    background: radial-gradient(circle, orange, black);
+    color: #e0e0e0;
+    transition: background 0.3s, color 0.3s;
+}
+
+body.light-mode {
+    background: #f0f0f5;
+    color: #1a1a2e;
+}
+
+h1 {
+    font-size: 1.5rem;
+    color: #4ecca3;
+    text-align: center;
+}
+
+.profile-card {
+    background: #252540;
+    border: 2px solid #4ecca3;
+    border-radius: 16px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 420px;
+    text-align: center;
+    transition: background 0.3s, border-color 0.3s;
+}
+
+body.light-mode .profile-card {
+    background: #ffffff;
+    border-color: #7b68ee;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #4ecca3, #7b68ee);
+    margin: 0 auto 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #0f0f1a;
+    font-weight: 700;
+    transition: transform 0.3s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.profile-name {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+}
+
+.profile-title {
+    font-size: 0.9rem;
+    color: #a0a0a0;
+    margin-bottom: 1rem;
+}
+
+body.light-mode .profile-title {
+    color: #666;
+}
+
+.profile-bio {
+    font-size: 0.85rem;
+    color: #a0a0a0;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+body.light-mode .profile-bio {
+    color: #555;
+}
+
+.stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: orange;
+}
+
+.stat-label {
+    font-size: 0.7rem;
+    color: #a0a0a0;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+    max-width: 420px;
+}
+
+.control-row {
+    display: flex;
+    gap: 0.5rem;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #4ecca3;
+    background: radial-gradient(circle, aquamarine, black);
+    color: aquamarine;
+    font-size: 0.9rem;
+    font-family: cursive;
+    outline: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+
+
+button {
+    padding: 0.6rem 1.25rem;
+    border-radius: 8px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+
+button:hover {
+    transform: translateY(-6px);
+    float-wrap: revert;
+    opacity: 0.9;
+}
+
+.btn-update {
+    background: radial-gradient(circle, steelblue, black);
+    color: wheat;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+
+
+
+.click-btn {
+    background: radial-gradient(circle, orange, black);
+    color: aliceblue;
+    width: 100%;
+}
+
+.btn-reset {
+    background: radial-gradient(circle, black, orange);
+    color: aliceblue;
+    width: 100%;
+}
+
+.status-bar {
+    font-size: 0.8rem;
+    color: #a0a0a0;
+    text-align: center;
+}

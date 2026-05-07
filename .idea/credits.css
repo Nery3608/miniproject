@@ -7,6 +7,20 @@ body {
     background: radial-gradient(ellipse, black, darkblue);
 }
 
+button {
+    background: radial-gradient(ellipse at center, black, darkblue);
+    font-family: cursive;
+    color: ghostwhite;
+    margin-left: 700px;
+    transition: background-color 1s ease-out, transform 1s ease-out;
+
+}
+
+button:hover {
+    background-color: darkblue;
+    transform: scale(1.1);
+}
+
 a {
     color: aliceblue;
     font-family: cursive;

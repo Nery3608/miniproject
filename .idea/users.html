@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interactive Profile Card</title>
+	<link rel="stylesheet" href="users.css">
+	<button onclick="history.back()">Home Page >:3 </button>
+</head>
+<body>
+
+<h1>🎨 Interactive Profile Card</h1>
+
+<!-- ── Profile Card ── -->
+<div class="profile-card">
+	<div class="avatar" id="avatar">?</div>
+	<div class="profile-name" id="profile-name">Your Info</div>
+	<div class="profile-bio" id="profile-bio">Gimme your data and RAM!!! Or just your info if you wanna contribute =)</div>
+
+	<div class="stats-row">
+		<div class="stat-box">
+			<div class="stat-number" id="visit-count">1</div>
+			<div class="stat-label">Visits</div>
+		</div>
+		<div class="stat-box">
+			<div class="stat-number" id="click-count">0</div>
+			<div class="stat-label">Clicks</div>
+		</div>
+	</div>
+</div>
+
+<!-- ── Controls ── -->
+<div class="controls">
+	<div class="control-row">
+		<input type="text" id="name-input" placeholder="Put yo' name/info in, brotassium! >:)">
+		<button class="btn-update" id="update-btn">Update Name</button>
+	</div>
+	<button class="click-btn" id="btn-click">CLICK ME!!! PLEASE!!!</button>
+	<button class="btn-reset" id="reset-btn"> Hard Reset!! </button>
+</div>
+
+<script src="users.js"></script>
+</body>
+</html>
