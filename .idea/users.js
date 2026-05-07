@@ -4,7 +4,7 @@ const profileButton = document.querySelector("#profile-btn");
 const profileName = document.querySelector("#profile-name");
 const avatarCircle = document.querySelector("#avatar");
 const resetButton = document.querySelector("#reset-btn");
-const likeCountDisplay = document.querySelector("#like-count");
+const clickCountDisplay = document.querySelector("#click-count");
 const statusBar = document.querySelector("#status");
 
 updateButton.addEventListener("click", (e) => {
@@ -16,21 +16,20 @@ updateButton.addEventListener("click", (e) => {
 
 });
 
-const like = document.querySelector("#like-btn");
-let likes = 0
+const click = document.querySelector("#click-btn");
+let clicks = 0
 
-like.addEventListener("click", (e) => {
-    let likes = + 1
-    likeCountDisplay.textContent = "1";
-    statusbar.textContent = "❤️ You have [likes] like(s)!";
+click.addEventListener("click", (e) => {
+    clicks +=  1
+    clickCountDisplay.textContent = `${clicks}`;
+    statusbar.textContent = "I AM FREE!! AHHHH!!!";
 
 })
 
 
 resetButton.addEventListener("click", (e) => {
-    profileName.textContent = "Your Name!";
+    profileName.textContent = "Blank Again";
     avatarCircle.textContent = "???";
-    likes = 0;
-    likeCountDisplay.textContent = "0";
-    statusbar.textContent = "🔄 Everything has been reset!";
+    clicks = 0;
+    clickCountDisplay.textContent = "0";
 })
