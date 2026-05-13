@@ -1,5 +1,44 @@
- {
-    display: flex;
+input[type="text"] {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    border: 1px solid rebeccapurple;
+    background: radial-gradient(circle, rebeccapurple, black);
+    color: rebeccapurple;
+    font-size: 0.9rem;
+    font-family: cursive;
+    outline: none;
+    transition: background 0.3s, color 0.3s;
+}
+body {
+    background: radial-gradient(circle, rebeccapurple, black);
+}
+h1 {
+    color: aliceblue;
     text-align: center;
-    padding-left: 550px;
+}
+
+
+h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+
+button {
+    padding: 0.6rem 1.25rem;
+    border-radius: 8px;
+    background: radial-gradient(circle, rebeccapurple, black);
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transform: translateY(0);
+    transition: transform 250ms cubic-bezier(0.2, 0.65, 0.3, 1);
+}
+
+button:hover {
+    transform: translateY(-6px);
+    float-wrap: revert;
+    opacity: 0.9;
 }
